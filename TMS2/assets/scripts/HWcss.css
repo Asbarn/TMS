@@ -1,119 +1,178 @@
-.containermain {
-    max-width: 1400px;
-    padding: 0 15px;
-    margin: auto;
+.registration {
+    height: 363px;
+    width: 360px;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-.container1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    text-align: center;
-    margin: auto;
-    margin-top: 108px;
-}
-
-.container2 {
-    text-align: center;
-    width: 64px;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 2px solid orange;
-    margin-top: 30px;
-}
-
-.container3 {
-    color: gray;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 8px;
-    margin: auto;
-    margin-top: 33px;
-}
-
-.container4 {
-    width: 100%;
-    margin: auto;
-    padding: 0 15px;
-    margin-top: 83px;
-}
-
-.section {
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    flex-direction: row;
-    text-align: center;
-}
-
-.elem {
-    width: 27%;
-    padding: 10px;
-}
-
-.secelem {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
-    text-align: center;
-    margin: auto;
-    margin-top: 34px;
-    font-weight: 700;
-}
-
-.thirdelem {
-    font-family: 'Roboto', sans-serif;
-    color: gray;
-    font-size: 11px;
-    text-align: center;
-    margin: auto;
-    margin-top: 33px;
-}
-
-.container5 {
+.registration-top {
+    height: 54px;
     background-color: #f5f5f5;
-    margin-top: 106px;
-}
-
-.container6 {
-    font-size: 26px;
     text-align: center;
-    margin: auto;
-    margin-top: 108px;
+    padding-top: 13px;
+    width: 360px;
+    border-radius: 5px;
+    font: 20px "Open Sans", sans-serif;
 }
 
-.section2 {
+.width33 {
+    width: 33%;
+}
+
+.width66 {
+    width: 66%;
+}
+
+.orangeFREE {
+    color: #ff9b51;
+    display: inline;
+}
+
+.nomargin {
+    margin: 0px;
+}
+
+.maxwidth400 {
+    max-width: 400px;
+}
+
+.registration-bottom {
+    height: 54px;
+    background-color: #ff9b51;
+    text-align: center;
+    margin-top: 75px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.registration-bottom button {
+    height: 54px;
+    width: 360px;
+    border: none;
+}
+
+.registration-bottom button:hover {
+    background-color: #ff9b51;
+}
+
+input[class=""] {
+    width: 285px;
+    border-color: #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+
+/*
+.emailenter {
+    width: 285px;
+}
+*/
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input[type="email"]:focus {
+    outline: none;
+}
+
+input[type="password"]:focus {
+    outline: none;
+}
+
+.elem-header-top-part button {
+    width: 100px;
+    border: none;
+    margin-top: 10px;
+    background-color: transparent;
+    font: 14px 'Open Sans', sans-serif;
+    color: #9a9a9a;
+    cursor: pointer;
+}
+
+.media {
+    /* height: 105px;*/
+    width: 100%;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.media-container {
+    height: 100%;
+    margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: bottom;
+    align-items: start;
     flex-direction: row;
-    text-align: center;
 }
 
-.elem2 {
-    width: 343px;
-    margin-left: 20px;
-    margin-right: 20px;
+.media-mainpart {
+    max-width: 50%;
+    height: 100%;
     padding: 10px;
-}
-
-.secelem2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
-    text-align: center;
     margin: auto;
-    font-weight: 700;
-    margin-top: 1px;
-    background-color: #333333;
-    color: white;
 }
 
-.height59 {
-    height: 59px;
+.media-mainpart .elem-part {
+    text-align: center;
+    display: inline;
+    margin: auto;
 }
 
-.height100 {
-    height: 100px;
+.elem-part i {
+    width: 16%;
+    margin: auto;
+    color: grey;
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 15px 15px 15px;
 }
 
-.height50 {
-    height: 50px;
+.elem-part h3 {
+    font: 400 22px 'Open Sans ', sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.elem-part p {
+    font: 14px 'Open Sans ', sans-serif;
+    color: #86878b;
+    text-align: left;
+}
+
+.elem-part .fa-google:before {
+    content: "\f1a0";
+    font-size: 50px;
+}
+
+.elem-part .fa-facebook-f:before {
+    content: "\f39e";
+    font-size: 50px;
+}
+
+.elem-part .fa-instagram:before {
+    content: "\f16d";
+    font-size: 50px;
+}
+
+.elem-part .fa-wifi:before {
+    content: "\f1eb";
+    font-size: 50px;
+}
+
+.elem-part .fa-twitter:before {
+    content: "\f099";
+    font-size: 50px;
+}
+
+.elem-part .fa-pinterest:before {
+    content: "\f0d2";
+    font-size: 50px;
 }
