@@ -1,0 +1,107 @@
+.testimonials {
+    background-color: #3f4049;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 100vh;
+}
+
+.testimonials h2 {
+    text-align: center;
+    font: 50px 'Libre Baskerville', serif;
+    color: #ffffff;
+}
+
+.testimonials h6 {
+    text-align: center;
+    font: 18px 'Poppins', serif;
+    color: #ffffff;
+}
+
+.testimonials .row {
+    margin-top: 10px;
+}
+
+.testimonials-img {
+    position: relative;
+    height: 399px;
+    background-image: url(https://picsum.photos/384/399);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transform: translateX(10px);
+}
+
+.testimonials-info {
+    background-color: #ffff;
+    margin: 34px 0;
+    padding: 45px 66px;
+    font: 15px "Poppins", serif;
+    color: #8b8b8b;
+    z-index: 2;
+    text-align: left;
+}
+
+.testimonials-info h5 {
+    margin-top: 35px;
+    font: 40px 'Sacramento', cursive;
+    color: #272727;
+}
+
+.testimonials-info h6 {
+    margin-top: 10px;
+    font: 18px 'Poppins', serif;
+    color: #272727;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.testimonials-info h7 {
+    margin-top: 10px;
+    font: 13px 'Poppins', serif;
+    color: #fc5f45;
+}
+
+.container .testimonials_tab {
+    height: 500px;
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0 0;
+    margin: 0 0;
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: none;
+    border: 3px solid black;
+}
+
+.tablink {
+    height: 50px;
+    width: 200px;
+}
+
+.task {
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border: 2px solid black;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
